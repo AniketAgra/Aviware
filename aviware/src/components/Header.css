@@ -1,0 +1,87 @@
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px 6%;
+    color: white;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent; /* Assumes header sits over a hero section */
+  }
+  
+  .header__logo {
+    height: 50px;
+    margin-left: 2.3%;
+  }
+  
+  /* Navigation Links */
+  .header__links {
+    width: 60%;
+    display: flex;
+    gap: 40px;
+  }
+  
+  .header__links a {
+    color: rgb(43, 42, 42);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    padding-top: 2%;
+  }
+  
+  .header__links a:hover {
+    color: #60a5fa; /* Light blue on hover */
+  }
+  
+  .header__buttons a {
+    color: rgb(43, 42, 42);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    padding-top: 3%;
+  }
+  
+  .header__buttons a:hover {
+    color: #60a5fa; /* Light blue on hover */
+  }
+  /* Button Container */
+  .header__buttons {
+    display: flex;
+    gap: 15px;
+    margin-right: 8%;
+  }
+  
+  /* Transparent 'Get Started' Button */
+  .header__button {
+    padding: 12px 28px;
+    border: 2px solid #3b82f6; /* Blue-500 */
+    background: transparent;
+    color: #3b82f6;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header__button:hover {
+    background-color: rgba(59, 130, 246, 0.1);
+  }
+  
+  /* Blue 'Login' Button */
+  .header__login {
+    padding: 12px 28px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header__login:hover {
+    background-color: #2563eb; /* Blue-600 */
+  }
+  

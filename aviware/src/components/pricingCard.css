@@ -1,0 +1,126 @@
+.pricing-container {
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .plan-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .plan-toggle span {
+    margin: 0 1.5rem;
+    cursor: pointer;
+    font-weight: 500;
+    color: gray;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .plan-toggle .active {
+    color: #3b82f6;
+    border-bottom: 2px solid #3b82f6;
+  }
+  
+  .pricing-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .pricing-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 250px;
+    padding: 1.5rem;
+    position: relative;
+  }
+  
+  .subtitle {
+    color: gray;
+    font-size: 0.9rem;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    font-size: 0.85rem;
+    color: gray;
+  }
+  
+  .price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0.5rem 0;
+  }
+  
+  .trial-btn {
+    width: 100%;
+    padding: 0.6rem;
+    background: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  
+  .access {
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+    color: #3c3d3c;
+    text-align: left;
+  }
+  
+  ul li.disabled {
+    color: #ccc;
+    text-decoration: line-through;
+  }
+  
+  .counter-group {
+    margin-top: 1rem;
+  }
+  
+  .counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f1f1f1;
+    padding: 0.4rem 0.6rem;
+    margin-top: 0.5rem;
+    border-radius: 4px;
+  }
+  
+  .counter span {
+    cursor: pointer;
+  }
+  
+
+  .tick-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  
+  .tick-disabled {
+    opacity: 0.3; /* Make disabled icons less opaque */
+  }
+  
+  .disabled {
+    color: #ccc;
+    text-decoration: line-through;
+  }
