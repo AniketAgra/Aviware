@@ -139,3 +139,86 @@
     font-size: 1.05rem;
     color: #161616;
   }
+
+@media screen and (max-width: 768px) {
+  .footer__top {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin: 0;
+  }
+
+  .footer-section1 {
+    margin-left: 0;
+    text-align: left;
+  }
+
+  .footer-section1 h2 {
+    font-size: 2rem;
+  }
+
+  .footer-section1 p,
+  .footer-section1-para1,
+  .footer-section1-para2 {
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+  }
+
+  .footer__right{
+    width: 90%;
+    margin-right: 10%;
+    margin-top: 0;
+    text-align: left;
+  }
+
+  #footer__googleplaystore {
+    margin-top: 15%;
+  }
+
+  #footer__contact {
+    flex-direction: row;
+    align-items: left;
+    gap: 5px;
+    margin-top: 10px;
+  }
+
+  #footer__contact a, #footer__contact p {
+    font-size: 0.8rem;
+    margin-top: 0;
+  }
+
+  .footer-section__links {
+    display: none;
+  }
+
+  .footer-section__links a {
+    display: block;
+    font-size: 0.9rem;
+    padding: 5px 0;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  .footer-bottom p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+
+  .social-icons {
+    margin-top: 10px;
+  }
+
+  .social-icons a {
+    font-size: 18px;
+  }
+
+  #footer__contact img {
+    translate: 0 0; /* reset image translation for center alignment */
+  }
+}

@@ -5,6 +5,7 @@ import sec2img from '../assets/sec2.jpg';
 import sec2rating from '../assets/rating.svg';
 import sec2Google from '../assets/googleplay.svg'
 import toatal_health from '../assets/totalhealth.png';
+import mobBanner from '../assets/banner_mobile.png';
 import rightArrow from '../assets/arrowRight.svg';
 import report1 from '../assets/report2.jpg';
 import report2 from '../assets/report1.jpg';
@@ -20,6 +21,7 @@ import FAQItem from './Faqs';
 import SupportedBy from '../assets/supportedby.svg';
 import PricingPlans from './pricingCard';
 import Slider from './Slider';
+import mobMain from '../assets/main_mobile.jpg';
 
 export default function Hero() {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -89,9 +91,10 @@ export default function Hero() {
     <div>
       <Header />
       <div className="hero">
+        <img className="hero__mobMain" src={mobMain} alt="Aviware Logo" />
         <div className="hero__content">
           <p className="hero__title">
-            Everything<br />you need to excel<br />in Pharmacy Business
+            Everything<br className='section3__break'/> you need to excel<br className='section3__break'/> in Pharmacy Business
           </p>
           <div className="hero__description">
             {isExpanded
@@ -133,7 +136,8 @@ export default function Hero() {
       </div>
       <div className="section3">
         <div className="section3__content">
-            <p className='section3__title'>Trusted by 5,000+ Retail Pharmacies<br/> Across 490+ Cities with Aviware <br/>Pharmacy Billing Software</p>
+            <p className='section3__title'>Trusted by 5,000+ Retail Pharmacies<br className='section3__break'/> Across 490+ Cities with Aviware <br className='section3__break'/>Pharmacy Billing Software</p>
+            <img className='section3__img__mob' src={mobBanner} alt="total_health" />
             <p className='section3__para'>Aviware is a boon for retailers like us. Management of the pharmacy business has become very simple and easy with this software. It is user-friendly and their support team is really dedicated. Medical store billing is fast, and the customer gets notified on WhatsApp upon sale. Search for any medicine, and the software will suggest you substitutes from your stock.</p>
             <img className='section3__img' src={toatal_health} alt="total_health" />
             <p className='section3__name'>Animesh Agrawal</p>
@@ -146,7 +150,7 @@ export default function Hero() {
       </div>
       <div className="section4">
         <div className="section4__content">
-            <p className='section4__title'>Not just another piece of<br/> paper!</p>
+            <p className='section4__title'>Not just another piece of<br className='section4__break'/> paper!</p>
             <div className="hero__description">
             {isExpanded
               ? (

@@ -85,3 +85,9 @@
     background-color: #2563eb; /* Blue-600 */
   }
   
+  @media screen and (max-width: 768px) {
+    .header__links a,
+    .header__buttons {
+      display: none; 
+    }
+  }
