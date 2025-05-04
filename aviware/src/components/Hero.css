@@ -1,11 +1,9 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styling */
 body {
 font-family: Arial, sans-serif;
 line-height: 1.6;
@@ -13,7 +11,6 @@ background-color: #f4f4f4;
 color: #333;
 }
 
-/* Hero Section Styling */
 .hero {
     position: relative;
     height: 100vh; 
@@ -440,7 +437,7 @@ color: #333;
 }
 
 .section4 {
-    position: relative; /* Enable absolute positioning for children */
+    position: relative; 
     height: 100vh;
     background-color: #b7cdce61;
     overflow: hidden;
@@ -509,13 +506,13 @@ color: #333;
 
   @media screen and (max-width: 768px) {
     .section4 {
-      height: auto; /* Allow section height to adjust */
+      height: auto; 
       padding: 5% 5%;
       text-align: center;
     }
   
     .section4__content {
-      width: 100%; /* Make content occupy full width */
+      width: 100%; 
       padding-left: 0;
       padding-top: 2%;
     }
@@ -718,7 +715,6 @@ color: #333;
     height: 190vh;
     background-image: url('../assets/web6.jpg');
     background-size: cover;
-    /* background-position: center; */
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -770,7 +766,6 @@ color: #333;
 @media screen and (max-width: 768px) {
     .section6 {
       height: auto;
-      /* background-image: url('../assets/mobile.jpg');  */
       background-size: cover;
       background-repeat: no-repeat;
       padding: 20px 0;
@@ -819,7 +814,6 @@ color: #333;
     height: 230vh;
     background-image: url('../assets/web6.jpg');
     background-size: cover;
-    /* background-position: center; */
     background-repeat: no-repeat;
     display: flex;
 }
@@ -848,7 +842,6 @@ color: #333;
 
 .faqs__content p{
     font-size: 19px;
-    /* width: 100%; */
     line-height: 1.2;
     color: #2f2d2d;
     padding-top: 5%;
@@ -864,7 +857,7 @@ color: #333;
 
 .faqs__button{
     padding: 12px 28px;
-    border: 2px solid #3b82f6; /* Blue-500 */
+    border: 2px solid #3b82f6; 
     background: transparent;
     color: #3b82f6;
     border-radius: 6px;

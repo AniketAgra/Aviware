@@ -8,15 +8,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: transparent; /* Assumes header sits over a hero section */
+    background: transparent; 
   }
   
   .header__logo {
-    height: 50px;
-    margin-left: 2.3%;
+    height: 80px;
+    margin-left: 5%;
   }
   
-  /* Navigation Links */
   .header__links {
     width: 60%;
     display: flex;
@@ -32,7 +31,7 @@
   }
   
   .header__links a:hover {
-    color: #60a5fa; /* Light blue on hover */
+    color: #60a5fa; 
   }
   
   .header__buttons a {
@@ -44,19 +43,19 @@
   }
   
   .header__buttons a:hover {
-    color: #60a5fa; /* Light blue on hover */
+    color: #60a5fa; 
   }
-  /* Button Container */
+
   .header__buttons {
     display: flex;
     gap: 15px;
     margin-right: 8%;
   }
   
-  /* Transparent 'Get Started' Button */
+  
   .header__button {
     padding: 12px 28px;
-    border: 2px solid #3b82f6; /* Blue-500 */
+    border: 2px solid #3b82f6; 
     background: transparent;
     color: #3b82f6;
     border-radius: 6px;
@@ -69,7 +68,6 @@
     background-color: rgba(59, 130, 246, 0.1);
   }
   
-  /* Blue 'Login' Button */
   .header__login {
     padding: 12px 28px;
     background-color: #3b82f6;
@@ -82,7 +80,7 @@
   }
   
   .header__login:hover {
-    background-color: #2563eb; /* Blue-600 */
+    background-color: #2563eb; 
   }
   
   @media screen and (max-width: 768px) {

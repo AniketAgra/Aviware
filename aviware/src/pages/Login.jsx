@@ -33,10 +33,10 @@ const LoginForm = () => {
             <p>Sign in to continue</p>
             <input type="text" id="name" value={name} onChange={(e) => setName(e.target.value)} placeholder="Enter your name" />
             <input type="password" id="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Enter your password" />
+            <button className="forgot-password">Forgot Password?</button>
           </div>
 
           <button onClick={handleSubmit} className="login-button">Login</button>
-          <button className="forgot-password">Forgot Password?</button>
           <p className='new-registerer'>New to Aviware? <button onClick={() => navigate('/login')} className="register-link">Register here</button></p>
 
           <p className="terms">By continuing, you are agreeing to our <br/><a href="/terms">Terms of Service</a> & <a href="/privacy">Privacy Policy</a></p>
