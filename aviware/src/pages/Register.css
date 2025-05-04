@@ -1,0 +1,199 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-container {
+  width: 100%;
+  /* height: 90vh; */
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 20px 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-logo {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 170px;
+}
+
+.form-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-top: -3%;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+.input-row label {
+  flex: 1;
+}
+
+label {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.label-inline {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+
+.required {
+  color: red;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"] {
+  padding: 8px;
+  font-size: 16px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+input[disabled] {
+  background-color: #e0e0e0;
+}
+
+.radio-section {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 12px 15px;
+  background: #f7f7f7;
+}
+
+.radio-section-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 15px;
+}
+
+.file-upload {
+  font-weight: 600;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.referral-text {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 18px;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.input-row label.half-width {
+  flex: 1;
+}
+
+.radio-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  border: solid 1.5px #ccc;
+  border-radius: 8px;
+  padding: 2% 2%;
+}
+
+.radio-title {
+  font-weight: 500;
+}
+
+.radio-options {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.radio-options label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+
+.with-counter {
+  position: relative;
+}
+
+.char-counter {
+  position: absolute;
+  right: 10px;
+  bottom: 8px;
+  font-size: 12px;
+  color: #555;
+}
+
+.link__login{
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* 📱 Responsive Adjustments */
+@media screen and (max-width: 768px) {
+  .input-row {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .form-container {
+    max-width: 92%;
+    padding: 25px;
+  }
+}
