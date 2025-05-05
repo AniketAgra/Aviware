@@ -3,6 +3,9 @@ import './Login.css';
 import logo from '../assets/AviwareLogo.png';
 import { Link, useNavigate } from 'react-router-dom';
 import loginMain from '../assets/loginMain.png'; 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
+
 
 const LoginForm = () => {
   const [name, setName] = useState('');
@@ -23,8 +26,10 @@ const LoginForm = () => {
       {/* Right Side - Login Box */}
       <div className="login-container">
         <div className="login-box">
+          <Link to="/" className="back-arrow"><FontAwesomeIcon icon={faHouse} style={{ color: "#3b82f6" }} />
+          </Link>
           <div className="logo-section">
-            <img src={logo} alt="Localwell Logo" className="logo" />
+            <Link to='/'><img src={logo} alt="Localwell Logo" className="logo" /></Link>
             <h4>Login or Sign Up</h4>
             <p>Enabling Pharmacies Since 2019</p>
           </div>

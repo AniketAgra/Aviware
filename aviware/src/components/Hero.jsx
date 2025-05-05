@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Hero.css';
 import Header from './Header';
-import sec2img from '../assets/sec2.jpg';
+import sec2img from '../assets/Screenshot 2025-05-05 135255.png';
 import sec2rating from '../assets/rating.svg';
 import sec2Google from '../assets/googleplay.svg'
 import toatal_health from '../assets/totalhealth.png';
@@ -21,7 +21,8 @@ import FAQItem from './Faqs';
 import SupportedBy from '../assets/supportedby.svg';
 import PricingPlans from './pricingCard';
 import Slider from './Slider';
-import mobMain from '../assets/main_mobile.jpg';
+import mobMain from '../assets/Screenshot 2025-05-05 134916.png';
+import { Link } from 'react-router-dom';
 
 export default function Hero() {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -115,7 +116,7 @@ export default function Hero() {
                 </>
               )}
           </div>
-          <button className="hero__button">TRY FOR FREE</button>
+          <Link to='/register'><button className="hero__button">TRY FOR FREE</button></Link>
         </div>
       </div>
       <div className="section2">   
@@ -170,7 +171,7 @@ export default function Hero() {
                 </>
               )}
             </div>
-            <button className="hero__button">TRY FOR FREE</button>
+            <Link to='/register'><button className="hero__button">TRY FOR FREE</button></Link>
         </div>
         <img className='section4__img' src={report1} alt="total_health" />
         <img className='section4__img2' src={report2} alt="total_health" />
@@ -236,7 +237,7 @@ export default function Hero() {
                     </>
                   )}
                 </div>
-                <button className="hero__button">TRY FOR FREE</button>
+                <Link to='/register'><button className="hero__button">TRY FOR FREE</button></Link>
             </div>
         </div>
         <div className='section6__slider'>
@@ -291,7 +292,7 @@ export default function Hero() {
         <p className='elevate__title1'>Elevate Your Pharmacy Business with Aviware</p>
         <p className='elevate__title2'>latest innovation in pharmacy softwares</p>
         <div className='elevate__buttons'>
-            <button className=' elevate__button1'>TRY FOR FREE</button>
+            <button className=' elevate__button1'><Link to='/register' style={{ color: 'white', textDecoration: 'none' }}>TRY FOR FREE</Link></button>
             <button className="section2__button">TALK TO SALES</button>
         </div>
       </div>

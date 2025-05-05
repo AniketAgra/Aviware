@@ -149,6 +149,19 @@
   margin-top: 4%;
 }
 
+.login-box .back-arrow {
+  display: flex;
+  text-decoration: none;
+  color: #3b82f6;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: -15%;
+  margin-left: -16%;
+  margin-bottom: 2.5rem;
+  text-align: left;
+}
+
+
 /* 🔹 Responsive Styles */
 @media screen and (max-width: 768px) {
   .login {
@@ -182,6 +195,18 @@
     padding: 4%;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.15);
   }
+
+  .login-box  .back-arrow {
+    display: flex;
+    text-decoration: none;
+    color: #3b82f6;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: -1%;
+    margin-left: -1%;
+    margin-bottom: 0.1rem;
+    text-align: left;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -201,5 +226,17 @@
 
   .login-button {
     padding: 8%;
+  }
+
+  .login-box  .back-arrow {
+    display: flex;
+    text-decoration: none;
+    color: #3b82f6;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: -1%;
+    margin-left: -1%;
+    margin-bottom: 0.1rem;
+    text-align: left;
   }
 }

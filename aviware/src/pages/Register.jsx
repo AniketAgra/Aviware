@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './Register.css';
 import logo from '../assets/AviwareLogo.png';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
 
 const RegisterBusinessForm = () => {
   const [formData, setFormData] = useState({
@@ -32,9 +34,9 @@ const RegisterBusinessForm = () => {
 
   return (
     <div id="register" className="form-container">
-      <img src={logo} alt="LocalWell Logo" className="form-logo" />
+      <Link to='/'><img src={logo} alt="LocalWell Logo" className="form-logo" /></Link>
+      <Link to="/" className="back-arrow"><FontAwesomeIcon icon={faHouse} style={{ color: "#3b82f6" }} /></Link>
       <h2 className="form-title">Register Your Business</h2>
-
       <form onSubmit={handleSubmit}>
         <div className="input-row">
           <label>

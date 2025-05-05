@@ -12,7 +12,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer__top">
         <div className="footer-section1">
-          <h2>zovent</h2>
+          <h2>Zovent</h2>
           <p className='footer-section-para'>Aviware Healthtech Pvt Ltd</p>
           <p className='footer-section1-para1'>3rd Floor, #1209, 22nd Cross, 15th Main, 3rd Sector, HSR Layout, Bangalore (KA) - 560102</p>
           <p className='footer-section1-para2'><b>CIN:</b> U72900KA2019PTC174868</p>

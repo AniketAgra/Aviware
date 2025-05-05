@@ -194,6 +194,15 @@ input[disabled] {
   text-decoration: none;
 }
 
+.form-container .back-arrow {
+  position: absolute;
+  top: 10%;
+  left: 32%;
+  font-size: 24px;
+  color: #3b82f6;
+  text-decoration: none;
+}
+
 /* 📱 Responsive Enhancements */
 @media screen and (max-width: 768px) {
   .input-row {
@@ -209,6 +218,15 @@ input[disabled] {
   .radio-options {
     flex-wrap: wrap;
     gap: 15px;
+  }
+
+  .form-container .back-arrow {
+    position: absolute;
+    top: 9%;
+    left: 10%;
+    font-size: 24px;
+    color: #3b82f6;
+    text-decoration: none;
   }
 }
 
@@ -227,5 +245,14 @@ input[disabled] {
   .char-counter {
     right: 8px;
     bottom: 6px;
+  }
+
+  .form-container .back-arrow {
+    position: absolute;
+    top: 10%;
+    left: 12%;
+    font-size: 24px;
+    color: #3b82f6;
+    text-decoration: none;
   }
 }

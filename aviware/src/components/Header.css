@@ -85,7 +85,13 @@
   
   @media screen and (max-width: 768px) {
     .header__links a,
-    .header__buttons {
+    .header__buttons button{
       display: none; 
+    }
+    .header__buttons{
+      margin-top: -5%;
+      border: solid 1px #3b82f6;
+      padding:1px 10px;
+      border-radius: 10%;
     }
   }

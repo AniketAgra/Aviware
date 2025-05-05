@@ -14,9 +14,9 @@ export default function Header() {
             <a href="#contact">Contact Us</a>
         </div>
         <div className='header__buttons'>
-        <Link className="header__links__signin" to="/register">Sign in</Link>
+        <Link className="header__signin-link" to="/register">Sign in</Link>
             <button className='header__button'>TALK TO SALES</button>
-            <button className='header__login'>TRY FOR FREE</button>
+            <button className='header__login'><Link to='/register' style={{ color: 'white', textDecoration: 'none' }}>TRY FOR FREE</Link></button>
         </div>
     </div>
   )
